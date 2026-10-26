@@ -1,0 +1,25 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+
+# Plant disease large dataset & temporary checkpoints
+data/plant_disease/
+training/checkpoints/
+training/results/*.png
+uploads/leaf_*.jpg
+uploads/leaf_*.png
+uploads/leaf_*.jpeg
+
+# IDE & OS files
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
